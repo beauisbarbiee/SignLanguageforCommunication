@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="beauisbarbie.scl.MenuActivity">
+
+    <ImageButton
+        android:id="@+id/btn_GPS"
+        android:layout_width="450dp"
+        android:layout_height="330dp"
+        android:layout_alignParentEnd="true"
+        android:background="#ffffff"
+        app:srcCompat="@drawable/searchm" />
+
+    <ImageButton
+        android:id="@+id/btn_Location"
+        android:layout_width="450dp"
+        android:layout_height="330dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="292dp"
+        android:background="#a8b0fe"
+        app:srcCompat="@drawable/locationm" />
+</RelativeLayout>

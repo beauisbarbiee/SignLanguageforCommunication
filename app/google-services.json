@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "449594291702",
+    "firebase_url": "https://signlanguageforcommunication.firebaseio.com",
+    "project_id": "signlanguageforcommunication",
+    "storage_bucket": "signlanguageforcommunication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449594291702:android:6b12f196dc688e19",
+        "android_client_info": {
+          "package_name": "beauisbarbie.scl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "449594291702-2pev2o6t25i6aobdn2lkpgdef8r9p50a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "beauisbarbie.scl",
+            "certificate_hash": "7a51e7258ea778943eb8a47b2bee30e4f2c8ccdd"
+          }
+        },
+        {
+          "client_id": "449594291702-d6oevpgvsebdbeplboudr8l1er3off6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjbOZqyMEoZsdGFL4Wdxjf7HOSy0zgI44"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "449594291702-d6oevpgvsebdbeplboudr8l1er3off6a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

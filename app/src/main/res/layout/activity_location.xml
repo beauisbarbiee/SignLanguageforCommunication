@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="beauisbarbie.scl.LocationActivity">
+
+
+    <ImageButton
+        android:id="@+id/btn_atHome"
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#c7ccfb"
+        app:srcCompat="@drawable/hmenu" />
+
+    <ImageButton
+        android:layout_marginTop="0dp"
+        android:id="@+id/btn_atSchool"
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_atHome"
+        android:background="#e1e4fc"
+        app:srcCompat="@drawable/scmenu" />
+
+    <ImageButton
+        android:id="@+id/btn_atHospital"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_atSchool"
+        android:background="#c7ccfb"
+        app:srcCompat="@drawable/hosmenu" />
+
+    <ImageButton
+        android:id="@+id/btn_atRestaurant"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_atHospital"
+        android:background="#e1e4fc"
+        app:srcCompat="@drawable/resmenu" />
+
+    <ImageButton
+        android:id="@+id/btn_atMarket"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_atRestaurant"
+        android:background="#c7ccfb"
+        app:srcCompat="@drawable/marmenu" />
+</RelativeLayout>
